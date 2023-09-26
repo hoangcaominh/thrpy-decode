@@ -12,7 +12,7 @@
 		"configure": "node-gyp configure"
 	},
 	"license": "UNLICENSE",
-	"devDependencies": {
+	"dependencies": {
 		"node-addon-api": "^7.0.0"
 	}
 }
