@@ -250,8 +250,7 @@ Napi::Value th_unlzss(const Napi::CallbackInfo& info) {
 
         try {
             auto result = th_unlzss_impl(buffer.Data(), buffer.Length());
-            Napi::Buffer<uint8_t> ret = Napi::Buffer<uint8_t>::Copy(env, result.data(), result.size());
-            return ret;
+            return Napi::Buffer<uint8_t>::Copy(env, result.data(), result.size());
         } catch (const std::runtime_error& e) {
             Napi::Error::New(env, e.what()).ThrowAsJavaScriptException();
             return env.Null();
