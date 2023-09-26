@@ -1,0 +1,18 @@
+{
+	"name": "thrpy-decode",
+	"version": "0.1.0",
+	"description": "Decoding suite for replay files from Touhou Project series",
+	"dependencies": {
+		"node-addon-api": "^1.7.2",
+		"node-gyp": "^8.4.1"
+	},
+	"gypfile": true,
+	"scripts": {
+		"build:dev": "node-gyp build --debug",
+		"build": "node-gyp build",
+		"rebuild:dev": "node-gyp rebuild --debug",
+		"rebuild": "node-gyp rebuild",
+		"clean": "node-gyp clean"
+	},
+	"license": "UNLICENSE"
+}
