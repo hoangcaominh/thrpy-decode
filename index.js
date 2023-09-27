@@ -1,13 +1,6 @@
 const { decrypt06, decrypt, unlzss } = require("./build/Release/thrpy-decode.node")
 
-const {
-    decrypt06,
-    decrypt,
-    unlzss
-} = thrpyDecode
-
-export {
-    thrpyDecode as default,
+module.exports = {
     decrypt06,
     decrypt,
     unlzss
