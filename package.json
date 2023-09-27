@@ -1,6 +1,6 @@
 {
 	"name": "thrpy-decode",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "Decoding suite for replay files from Touhou Project series",
 	"main": "index.js",
 	"type": "module",
