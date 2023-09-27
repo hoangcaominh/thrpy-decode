@@ -2,6 +2,7 @@
 	"name": "thrpy-decode",
 	"version": "0.1.4",
 	"description": "Decoding suite for replay files from Touhou Project series",
+	"main": "index.js",
 	"gypfile": true,
 	"scripts": {
 		"install": "node-gyp clean && node-gyp configure && node-gyp build",
@@ -15,5 +16,13 @@
 	"license": "UNLICENSE",
 	"dependencies": {
 		"node-addon-api": "^7.0.0"
-	}
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/hoangcaominh/thrpy-decode.git"
+	},
+	"bugs": {
+	  "url": "https://github.com/hoangcaominh/thrpy-decode/issues"
+	},
+	"homepage": "https://github.com/hoangcaominh/thrpy-decode#readme"
 }
