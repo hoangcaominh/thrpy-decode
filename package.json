@@ -6,11 +6,14 @@
 	"types": "index.d.ts",
 	"license": "UNLICENSE",
 	"repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/hoangcaominh/thrpy-decode.git"
+		"type": "git",
+		"url": "git+https://github.com/hoangcaominh/thrpy-decode.git"
 	},
 	"bugs": {
-	  "url": "https://github.com/hoangcaominh/thrpy-decode/issues"
+		"url": "https://github.com/hoangcaominh/thrpy-decode/issues"
 	},
-	"homepage": "https://github.com/hoangcaominh/thrpy-decode#readme"
+	"homepage": "https://github.com/hoangcaominh/thrpy-decode#readme",
+	"devDependencies": {
+		"@types/node": "^20.9.0"
+	}
 }
